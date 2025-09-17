@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://img.freepik.com/free-vector/realistic-blurred-floral-background_52683-63510.jpg?semt=ais_hybrid&w=740&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MenuPrincipal {
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 2.2%;
+  position: static;
+}
+
+.TituloPrincipal {
+  text-align: center;
+  margin: 1.5%;
+  color: rgb(0, 0, 0);
+}
+
+.FloatImg1 {
+    float: left;
+    margin: 15px;
+}
+
+.FloatImg2 {
+  float: right;
+  margin: 15px;
+}
+
+.FloatImgsDiv {
+  clear:both;
+}
+
+.TituloCentrado {
+  text-align: center;
+}
+
+.TituloMargen2 {
+  margin: 2%;
+}
+
+.BigList {
+  font-size: 110%;
+}
+
+.Creditos {
+  font-size : 110%;
+  text-align: center;
+  
+}
+
+.ImgCh {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(255, 193, 204); 
+}
+
