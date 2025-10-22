@@ -15,6 +15,7 @@ function MA() {
                 <li>Hormonales o No Hormonales: En base a si incluyen hormonas en su composición.</li>
                 <li>Temporales o Permanentes: En función de la duración de la anticoncepción.</li>
                 <li>Reversibles o Irreversibles: Hace referencia a la esterilización total del hombre o la mujer.</li>
+                  <Video />
             </ul>
             <img src="https://www.unipiloto.edu.co/wp-content/uploads/2020/11/natural.jpg" width="40%" className="FloatImg1" alt="sexono" />
             <p>Hay algo llamado "anticonceptivo natural". Este mecanismo de acción de los anticonceptivos se basan en el control del ciclo menstrual para evitar mantener relaciones sexuales en los días fértiles de la mujer, que son aquellos cercanos al momento de la ovulación. Popularmente se conoce a este anticonceptivo natural como Ogino-knaus. A pesar de ser un método anticonceptivo sin costo, no es un método muy seguro. Su eficacia anticonceptiva no supera el 75% y, además, no protege frente a las enfermedades de transmisión sexual (ETS).</p>
@@ -32,7 +33,7 @@ function MA() {
                 <li>Ligadura Tubaria: Un procedimiento quirúrgico para mujeres que bloquea o corta las trompas de Falopio. </li>
                 <li>Vasectomía: Un procedimiento quirúrgico para hombres que interrumpe los conductos deferentes, impidiendo que los espermatozoides lleguen al semen.</li>
             </ul>
-            <Video />
+            
         </div>
     );
 }

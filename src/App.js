@@ -8,6 +8,7 @@ import Title from './Components/Title';
 import Consenso from './Pages/Consenso'; //no tocar equisde   no lo logro señor   no lo logré?     No estoy loco!  estoy l0c0¿¡       QUE NO ESTOY LOLCO!!    lol?    I KNEW THAT DOOR HAD A LOCK ON IT//
 import Embrion from './Pages/Embrion';
 import Charla from './Pages/Charla';
+import PF from './Pages/Prefre';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/Consenso" element={<Consenso />}></Route>
           <Route path="/Embrion" element={<Embrion />}></Route>
           <Route path="/Charla" element={<Charla />}></Route>
+          <Route path="/Prefre" element={<PF />}></Route>
         </Routes>
       </Router>
     </div>

@@ -1,4 +1,5 @@
 import Menu from '../Components/Menu';
+import Video3 from "../Components/video3.jsx";
 
 function ETS() {
     return (
@@ -21,6 +22,7 @@ function ETS() {
             <p>El VIH, o Virus de la Inmunodeficiencia Humana, es un virus que daña el sistema inmunitario, específicamente las células CD4, lo que dificulta la lucha del cuerpo contra infecciones y cáncer. El SIDA es la fase más avanzada de la infección por VIH, que ocurre cuando el sistema inmunitario está gravemente dañado.</p>
             <h5>VPH:</h5>
             <p>El VPH (Virus del Papiloma Humano) es un grupo de más de 150 virus, la infección de transmisión sexual (ITS) más común, que se transmite por contacto sexual. Algunos tipos pueden causar verrugas (de bajo riesgo) y otros (de alto riesgo) pueden provocar varios tipos de cáncer, como el de cuello uterino, ano, pene, vulva, vagina y garganta. </p>
+            <Video3 />
             <h3 className="TituloMargen2">Los síntomas conocidos son:</h3>
             <h5>Para la Gonorrea:</h5>
             <p>Dolor o ardor al orinar, secreción de pus (blanca, amarilla o verdosa) del pene o la vagina, dolor en la parte baja del abdomen y sangrado entre períodos o después de las relaciones sexuales.</p>

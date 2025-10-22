@@ -8,8 +8,9 @@ body {
   background-image: url(https://img.freepik.com/free-vector/realistic-blurred-floral-background_52683-63510.jpg?semt=ais_hybrid&w=740&q=80);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   width: 100%;
-  height: 100%;
+  height: 100%; 
 }
 
 code {
@@ -20,16 +21,19 @@ code {
 .MenuPrincipal {
   width: 70%;
   height: 100%;
-  background-color: white;
+  background-color: rgb(250, 238, 246);
   margin: 0 auto;
   padding: 2.2%;
   position: static;
+  border-width: 5px;
+  border-style: double;
+  border-color: rgb(208, 84, 233);
 }
 
 .TituloPrincipal {
   text-align: center;
-  margin: 1.5%;
-  color: rgb(0, 0, 0);
+  margin: 1.3%;
+  color: rgb(95, 46, 124);
 }
 
 .FloatImg1 {
@@ -58,12 +62,6 @@ code {
   font-size: 110%;
 }
 
-.Creditos {
-  font-size : 110%;
-  text-align: center;
-  
-}
-
 .ImgCh {
   display: block;
   margin-left: auto;
@@ -71,8 +69,19 @@ code {
   margin-bottom: 20px;
 }
 
-footer {
-  text-align: center;
-  background-color: rgb(255, 193, 204); 
+.content-container {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
 }
 
+.card-img-top {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+}
