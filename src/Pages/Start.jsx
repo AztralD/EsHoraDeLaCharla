@@ -1,4 +1,5 @@
 import Menu from "../Components/Menu";
+import Creds from "../Components/Creds";
 import Footer from "../Components/Footer";
 import '../index.css'
 
@@ -78,6 +79,8 @@ function Start() {
                 <li>Perspectiva Socioeconomica</li>
             </ul>
             <br />
+            <br />
+            <Creds />
             <br />
             <Footer />
         </div>
